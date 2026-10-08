@@ -15,3 +15,4 @@ def register(ctx):
     ctx.register_skill('editorial-style', base_dir / 'skills' / 'editorial-style' / 'SKILL.md')
     ctx.register_skill('sequential-thinking', base_dir / 'skills' / 'sequential-thinking' / 'SKILL.md')
     ctx.register_skill('document-templates', base_dir / 'skills' / 'document-templates' / 'SKILL.md')
+    ctx.register_skill('reflection-report', base_dir / 'skills' / 'reflection-report' / 'SKILL.md')

@@ -1,0 +1,22 @@
+schema: 1
+name: reflection-report
+version: 0.1.0
+title: "Рефлексивный отчёт модератора"
+description: "Собирает рефлексивный отчёт модератора по итогам модуля программы из записи рефлексии, транскриптов разборов, фото досок и схем. Сначала проверяет комплектность материалов, потом оформляет документ «суть для человека, материалы для агентов» и рисует схемы PNG."
+compatible_agents:
+  - claude
+  - codex
+  - cursor
+  - opencode
+  - openclaw
+  - hermes
+  - zcode
+requires:
+  mcp: []
+  permissions:
+    filesystem: write
+resources:
+  skill: SKILL.md
+  references: true
+  scripts: true
+  assets: false
